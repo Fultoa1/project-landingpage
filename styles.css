@@ -1,5 +1,21 @@
 * {font-family: 'Roboto', sans-serif;}
 
+body {
+      display:flex;
+      flex-direction: column;
+}
 
+.header{
+    background-color: #1F2937;
+    color: #F9FAF8;
+    display: flex;
+}
 
+ul {
+    list-style: none;
+    display: flex;
+}
 
+a { 
+    text-decoration: none;
+}
