@@ -1,2 +1,2 @@
 # project-landingpage
-M second Odin project
+My second Odin project
