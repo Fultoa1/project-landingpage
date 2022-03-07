@@ -1,0 +1,23 @@
+[33mcommit b0266a89be97ee5ef56dd8c8f37ec52aec459d2f[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Fultoa1 <allan.fultonz@gmail.com>
+Date:   Mon Mar 7 13:33:52 2022 +0000
+
+    Add hero div and lefthand contents
+
+[33mcommit 5d3ed42448020f0df7e44d2df0bdf0ef2bcb16d9[m
+Author: Fultoa1 <allan.fultonz@gmail.com>
+Date:   Fri Mar 4 14:48:56 2022 +0000
+
+    Add basic structure for header
+
+[33mcommit 484811e4a3d0f5665a6317da06b728fb5651a38d[m
+Author: Fultoa1 <allan.fultonz@gmail.com>
+Date:   Fri Mar 4 14:10:56 2022 +0000
+
+    setup basic html and css with font family link
+
+[33mcommit c1658ff892a35be5110dedb52f7664231d3ff5bb[m
+Author: Fultoa1 <99277419+Fultoa1@users.noreply.github.com>
+Date:   Fri Mar 4 13:24:15 2022 +0000
+
+    Initial commit
