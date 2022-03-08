@@ -77,8 +77,8 @@ button {
 .random {
         background-color: #F9FAF8;
         display: flex;
-        justify-content: space-around;
-        gap: 10px;
+        justify-content: center;
+        gap: 60px;
         text-align: center;
 
 }
@@ -98,12 +98,17 @@ button {
 
 .info {
     max-width: 100px;
-    justify-content: space-around;
+    
     border-width: 2px;
     border-radius: 5px;
     background-color: #E5E7EB;
     border-color: #3882F6;
     }
+
+.text {
+    background-color: #F9FAF8;
+
+}
 
 .quote {
     background-color: #E5E7EB;
@@ -119,4 +124,33 @@ button {
 .byline {
     text-align: end;
     font-weight: bold;
+}
+
+.callaction {
+    background-color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 160px;
+    padding-top: 60px;
+}
+
+
+.bluebox {
+    width: 800px;
+    height: 300px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 15px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.bluebox >.button {
+
+    border-color: #F9FAF8;
+    border-style: solid;
+    border-width: 2px;
 }
