@@ -1,9 +1,11 @@
 * {font-family: 'Roboto', sans-serif;}
 
+
 body {
       display:flex;
       flex-direction: column;
-      margin: 0 0;
+      margin: 0 auto;
+      max-width: 1200px;
 }
 
 .header{
@@ -43,7 +45,7 @@ a {
     
 }
 
-p:first-of-type {
+.hero p:first-of-type {
     font-size: 48px;
     font-weight: 900;
     color: #F9FAF8;
@@ -71,6 +73,8 @@ button {
     color: #E5E7EB;
     border-radius: 5px;
     border-style: none;
+    font-size: 14px;
+    font-weight: bold;
     padding: 6px 12px;
 }
 
@@ -97,17 +101,18 @@ button {
 }
 
 .info {
-    max-width: 100px;
-    
-    border-width: 2px;
-    border-radius: 5px;
+    max-width: 120px;
     background-color: #E5E7EB;
-    border-color: #3882F6;
+
+    }
+.info img { 
+        border: 3px solid #3882F6;
+        border-radius: 5px;
     }
 
 .text {
     background-color: #F9FAF8;
-
+    padding: 1em 0;
 }
 
 .quote {
@@ -115,11 +120,10 @@ button {
     color: #1F2937;
     font-size: 36px;
     font-style: italic;
-    padding: 80px 180px;
+    padding: 80px 220px;
     display:flex;
     flex-direction: column;
-
-}
+    }
 
 .byline {
     text-align: end;
@@ -131,14 +135,14 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-left: 160px;
-    padding-top: 60px;
+    padding: 60px 160px;
+    
 }
 
 
 .bluebox {
     width: 800px;
-    height: 300px;
+    height: 200px;
     background-color: #3882F6;
     color: #F9FAF8;
     border-radius: 15px;
@@ -148,9 +152,22 @@ button {
     justify-content: space-around;
 }
 
-.bluebox >.button {
+.calltxt h2,p {
+        margin-top: 0.2em;
+        margin-bottom: 0.2em;
+}
 
-    border-color: #F9FAF8;
-    border-style: solid;
-    border-width: 2px;
+.bluebox button {
+
+    border: 2px solid #F9FAF8;
+    
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    height: 4em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
